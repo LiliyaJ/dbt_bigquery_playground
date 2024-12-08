@@ -1,0 +1,6 @@
+# dbt_project.yml
+name: playground
+version: 1.0
+
+dbt-cloud:
+  project-id: 70471823406633
