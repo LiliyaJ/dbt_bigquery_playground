@@ -1,10 +1,3 @@
-#create table instead of preset view
-{{
-    config(
-        materialized='table'
-    )
-}}
-
 with orders as 
 (
     select 

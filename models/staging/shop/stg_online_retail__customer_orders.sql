@@ -1,10 +1,3 @@
-#create table instead of preset view
-{{
-    config(
-        materialized='table'
-    )
-}}
-
 select
     CustomerID,
     min(InvoiceDate) first_order,
