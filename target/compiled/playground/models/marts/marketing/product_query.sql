@@ -2,19 +2,19 @@ with orders as
 (
     select 
     *
-    from {{ ref('stg_online_retail__orders') }}
+    from `liliyaj-projects`.`dbt_ljeromin`.`stg_online_retail__orders`
 )
 , customers as 
 (
     select
     *
-    from {{ ref('stg_online_retail__customers') }}
+    from `liliyaj-projects`.`dbt_ljeromin`.`stg_online_retail__customers`
 )
 , customer_orders as 
 (
     select
     *
-    from {{ ref ('stg_online_retail__customer_orders') }}
+    from `liliyaj-projects`.`dbt_ljeromin`.`stg_online_retail__customer_orders`
 )
 , final as 
 (
