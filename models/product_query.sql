@@ -15,11 +15,11 @@ with orders as
 (
     select
     *
-    from {{ ref('stg_online_retail_stock') }}
+    from {{ ref('stg_online_retail__stock') }}
 )
 , customer_orders as 
 (
     select
     *
-    from {{ ref ('stg_online_retail_customer_orders') }}
+    from {{ ref ('stg_online_retail__customer_orders') }}
 )
