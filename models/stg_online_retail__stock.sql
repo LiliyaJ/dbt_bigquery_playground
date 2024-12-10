@@ -8,5 +8,6 @@
 select
     StockCode,
     Description,
-    UnitPrice
+    UnitPrice,
+    Quantity
 from `liliyaj-projects.dbt_stage.online_retail` 
