@@ -40,5 +40,7 @@
     left join customer_orders using (CustomerID)
     
 )
+select distinct *
+from final
     );
   
