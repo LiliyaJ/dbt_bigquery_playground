@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: liliyaj-projects
+    database: dbt_ljeromin
+    schema: shop
+    tables:
+      - name: customer_orders
+      - name: orders
+      - name: customers
