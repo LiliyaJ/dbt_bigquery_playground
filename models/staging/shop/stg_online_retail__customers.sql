@@ -2,5 +2,5 @@ select
     CustomerID,
     country
     
-from {{ source('liliyaj-projects', 'dbt_stage') }}
+from {{ source('shop', 'online_retail') }}
 --`liliyaj-projects.dbt_stage.online_retail` 

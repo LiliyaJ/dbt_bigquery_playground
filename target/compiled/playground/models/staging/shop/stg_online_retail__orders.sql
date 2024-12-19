@@ -3,4 +3,4 @@ select
     InvoiceNo,
     StockCode,
     CustomerID
-from {{ source('shop', 'online_retail') }}
+from `dbt_stage`.`shop`.`online_retail`
